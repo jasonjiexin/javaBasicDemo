@@ -1,4 +1,5 @@
 package exercise5;
+
 /*
 * 对象一建立就会调用与之对应的构造函数。
 构造函数的作用：可以用于给对象进行初始化。
@@ -24,25 +25,25 @@ package exercise5;
 
 * */
 public class personDemo2 {
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         //通过构造函数一来初始化成员变量，当类加载的时候对对象进行初始化
         person2 p = new person2();
         //通过构造函数二来初始化成员变量
         person2 p1 = new person2("jason");
         //通过构造函数三来初始化成员变量
-        person2 p2 = new person2("bill",8);
+        person2 p2 = new person2("bill", 8);
 
         p.cry();
     }
 }
 
-class person2{
+class person2 {
     private String name;
     private int age;
 
     /*
-	构造代码块。
+    构造代码块。
 	作用：给对象进行初始化，构造代码快中定义的是不同对象共性的初始化内容。
 	对象一建立就运行，而且优先于构造函数执行。
 	和构造函数的区别：
@@ -57,24 +58,24 @@ class person2{
 
     //与类名相同的方法名被称为构造函数，用作初始化变量
     //构造函数一
-    person2(){
-        System.out.println("A:name="+name+",,age="+age);
+    person2() {
+        System.out.println("A:name=" + name + ",,age=" + age);
     }
 
     //构造函数二
-    person2(String n){
+    person2(String n) {
         name = n;
-        System.out.println("B:name="+name+",,age="+age);
+        System.out.println("B:name=" + name + ",,age=" + age);
     }
 
     ////构造函数三
-    person2(String n, int a){
+    person2(String n, int a) {
         name = n;
         age = a;
-        System.out.println("C:name = "+name+",,age"+age);
+        System.out.println("C:name = " + name + ",,age" + age);
     }
 
-    public void cry(){
+    public void cry() {
         System.out.println("cry.......");
     }
 
