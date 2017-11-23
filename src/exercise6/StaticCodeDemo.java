@@ -19,7 +19,7 @@ public class StaticCodeDemo {
         //没有对象的建立因此StaticCode类没有加载
         StaticCode s = null;
 
-        //
+        //加载StaticCode类并且创建对象
         s = new StaticCode();
 
     }
