@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33f7c5bc-be24-433b-808a-d83011028f12" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/exercise6/PersonDemo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaBasicDemo/exercise6/ArrayTool.class" afterPath="$PROJECT_DIR$/out/production/javaBasicDemo/exercise6/ArrayTool.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaBasicDemo/exercise6/ArrayToolDemo.class" afterPath="$PROJECT_DIR$/out/production/javaBasicDemo/exercise6/ArrayToolDemo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/exercise6/SingleDemo.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,7 +25,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PersonDemo.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PersonDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/exercise6/PersonDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
@@ -39,6 +37,27 @@
                 <element signature="e#898#899#0" expanded="true" />
                 <element signature="e#1065#1066#0" expanded="true" />
                 <element signature="e#1113#1114#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SingleDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/exercise6/SingleDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-132">
+              <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+              <folding>
+                <element signature="e#1090#1091#0" expanded="true" />
+                <element signature="e#1116#1117#0" expanded="true" />
+                <element signature="e#1159#1160#0" expanded="true" />
+                <element signature="e#1194#1195#0" expanded="true" />
+                <element signature="e#1230#1231#0" expanded="true" />
+                <element signature="e#1259#1260#0" expanded="true" />
+                <element signature="e#1455#1456#0" expanded="true" />
+                <element signature="e#1479#1480#0" expanded="true" />
+                <element signature="e#1513#1514#0" expanded="true" />
+                <element signature="e#1542#1543#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -67,6 +86,7 @@
         <option value="$PROJECT_DIR$/src/exercise6/StaticDemo.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/src/exercise6/PersonDemo.java" />
+        <option value="$PROJECT_DIR$/src/exercise6/SingleDemo.java" />
       </list>
     </option>
   </component>
@@ -121,20 +141,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="exercise6" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="javaBasicDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaBasicDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="exercise6" type="462c0819:PsiDirectoryNode" />
-              <item name="PersonDemo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="javaBasicDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaBasicDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="exercise6" type="462c0819:PsiDirectoryNode" />
-              <item name="StaticCodeDemo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -164,7 +170,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PersonDemo">
+  <component name="RunManager" selected="Application.SingleDemo">
     <configuration name="PersonDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -173,6 +179,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="exercise6.PersonDemo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="javaBasicDemo" />
+      <envs />
+    </configuration>
+    <configuration name="SingleDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="exercise6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="exercise6.SingleDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -284,14 +309,16 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.PersonDemo" />
       <item index="1" class="java.lang.String" itemvalue="Application.StaticCodeDemo" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SingleDemo" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.PersonDemo" />
-        <item index="1" class="java.lang.String" itemvalue="Application.StaticCodeDemo" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.SingleDemo" />
+        <item index="1" class="java.lang.String" itemvalue="Application.PersonDemo" />
+        <item index="2" class="java.lang.String" itemvalue="Application.StaticCodeDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -305,12 +332,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1511489442344</updated>
-      <workItem from="1511489446934" duration="5974000" />
+      <workItem from="1511489446934" duration="11021000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5974000" />
+    <option name="totallyTimeSpent" value="11021000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -383,6 +410,25 @@
             <element signature="e#898#899#0" expanded="true" />
             <element signature="e#1065#1066#0" expanded="true" />
             <element signature="e#1113#1114#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercise6/SingleDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-132">
+          <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+          <folding>
+            <element signature="e#1090#1091#0" expanded="true" />
+            <element signature="e#1116#1117#0" expanded="true" />
+            <element signature="e#1159#1160#0" expanded="true" />
+            <element signature="e#1194#1195#0" expanded="true" />
+            <element signature="e#1230#1231#0" expanded="true" />
+            <element signature="e#1259#1260#0" expanded="true" />
+            <element signature="e#1455#1456#0" expanded="true" />
+            <element signature="e#1479#1480#0" expanded="true" />
+            <element signature="e#1513#1514#0" expanded="true" />
+            <element signature="e#1542#1543#0" expanded="true" />
           </folding>
         </state>
       </provider>
