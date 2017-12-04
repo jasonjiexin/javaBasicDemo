@@ -40,6 +40,7 @@ public class ExtendsDemo4 {
     public static void main(String[] args){
         Zi1 z = new Zi1(13);
         System.out.println(z.num);
+
     }
 }
 
