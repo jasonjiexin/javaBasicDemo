@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33f7c5bc-be24-433b-808a-d83011028f12" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/exercise7/FinalDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/exercise7/AbstractDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/exercise7/AbstractTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/exercise7/TemlateDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaBasicDemo/exercise7/Demo.class" afterPath="$PROJECT_DIR$/out/production/javaBasicDemo/exercise7/Demo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaBasicDemo/exercise7/FinalDemo.class" afterPath="$PROJECT_DIR$/out/production/javaBasicDemo/exercise7/FinalDemo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaBasicDemo/exercise7/SubDemo.class" afterPath="$PROJECT_DIR$/out/production/javaBasicDemo/exercise7/SubDemo.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,33 +20,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StaticDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/exercise6/StaticDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1254">
-              <caret line="57" column="16" lean-forward="false" selection-start-line="56" selection-start-column="20" selection-end-line="57" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PersonDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/exercise6/PersonDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1254">
-              <caret line="63" column="70" lean-forward="false" selection-start-line="63" selection-start-column="70" selection-end-line="63" selection-end-column="70" />
-              <folding>
-                <element signature="e#778#779#0" expanded="true" />
-                <element signature="e#810#811#0" expanded="true" />
-                <element signature="e#837#838#0" expanded="true" />
-                <element signature="e#898#899#0" expanded="true" />
-                <element signature="e#1065#1066#0" expanded="true" />
-                <element signature="e#1113#1114#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SingleDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/exercise6/SingleDemo.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -90,8 +68,8 @@
       <file leaf-file-name="ExtendsDemo2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/exercise7/ExtendsDemo2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="880">
-              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state relative-caret-position="792">
+              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding>
                 <element signature="e#423#424#0" expanded="true" />
                 <element signature="e#453#454#0" expanded="true" />
@@ -106,7 +84,7 @@
         <entry file="file://$PROJECT_DIR$/src/exercise7/ExtendsDemo3.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="616">
-              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding>
                 <element signature="e#486#487#0" expanded="true" />
                 <element signature="e#531#532#0" expanded="true" />
@@ -118,8 +96,8 @@
       <file leaf-file-name="ExtendsDemo4.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/exercise7/ExtendsDemo4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="46" column="10" lean-forward="true" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
+            <state relative-caret-position="1012">
+              <caret line="46" column="10" lean-forward="false" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
               <folding>
                 <element signature="e#933#934#0" expanded="true" />
                 <element signature="e#982#983#0" expanded="true" />
@@ -128,15 +106,58 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FinalDemo.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FinalDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/exercise7/FinalDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+            <state relative-caret-position="396">
+              <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/exercise7/AbstractDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="56" column="38" lean-forward="false" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="38" />
               <folding>
-                <element signature="e#400#401#0" expanded="true" />
-                <element signature="e#451#452#0" expanded="true" />
+                <element signature="e#960#961#0" expanded="true" />
+                <element signature="e#1000#1001#0" expanded="true" />
+                <element signature="e#1075#1076#0" expanded="true" />
+                <element signature="e#1126#1127#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/exercise7/AbstractTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+              <folding>
+                <element signature="e#502#503#0" expanded="true" />
+                <element signature="e#534#535#0" expanded="true" />
+                <element signature="e#563#564#0" expanded="true" />
+                <element signature="e#594#595#0" expanded="true" />
+                <element signature="e#848#849#0" expanded="true" />
+                <element signature="e#898#899#0" expanded="true" />
+                <element signature="e#974#975#0" expanded="true" />
+                <element signature="e#1010#1011#0" expanded="true" />
+                <element signature="e#1049#1050#0" expanded="true" />
+                <element signature="e#1095#1096#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TemlateDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/exercise7/TemlateDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -171,6 +192,9 @@
         <option value="$PROJECT_DIR$/src/exercise7/ExtendsDemo3.java" />
         <option value="$PROJECT_DIR$/src/exercise7/ExtendsDemo4.java" />
         <option value="$PROJECT_DIR$/src/exercise7/FinalDemo.java" />
+        <option value="$PROJECT_DIR$/src/exercise7/AbstractDemo.java" />
+        <option value="$PROJECT_DIR$/src/exercise7/AbstractTest.java" />
+        <option value="$PROJECT_DIR$/src/exercise7/TemlateDemo.java" />
       </list>
     </option>
   </component>
@@ -201,6 +225,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -223,10 +249,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -249,15 +273,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FinalDemo">
-    <configuration name="ExtendsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.TemlateDemo">
+    <configuration name="AbstractDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="exercise7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="exercise7.ExtendsDemo" />
+      <option name="MAIN_CLASS_NAME" value="exercise7.AbstractDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -269,33 +293,14 @@
       <module name="javaBasicDemo" />
       <envs />
     </configuration>
-    <configuration name="ExtendsDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="AbstractTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="exercise7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="exercise7.ExtendsDemo2" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="javaBasicDemo" />
-      <envs />
-    </configuration>
-    <configuration name="ExtendsDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="exercise7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="exercise7.ExtendsDemo3" />
+      <option name="MAIN_CLASS_NAME" value="exercise7.AbstractTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -334,6 +339,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="exercise7.FinalDemo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="javaBasicDemo" />
+      <envs />
+    </configuration>
+    <configuration name="TemlateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="exercise7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="exercise7.TemlateDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -427,19 +451,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.ExtendsDemo" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ExtendsDemo2" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ExtendsDemo3" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ExtendsDemo4" />
-      <item index="4" class="java.lang.String" itemvalue="Application.FinalDemo" />
+      <item index="0" class="java.lang.String" itemvalue="Application.ExtendsDemo4" />
+      <item index="1" class="java.lang.String" itemvalue="Application.FinalDemo" />
+      <item index="2" class="java.lang.String" itemvalue="Application.AbstractDemo" />
+      <item index="3" class="java.lang.String" itemvalue="Application.AbstractTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.TemlateDemo" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.FinalDemo" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ExtendsDemo4" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ExtendsDemo3" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ExtendsDemo2" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ExtendsDemo" />
+        <item index="0" class="java.lang.String" itemvalue="Application.TemlateDemo" />
+        <item index="1" class="java.lang.String" itemvalue="Application.AbstractTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.AbstractDemo" />
+        <item index="3" class="java.lang.String" itemvalue="Application.FinalDemo" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ExtendsDemo4" />
       </list>
     </recent_temporary>
   </component>
@@ -456,12 +480,13 @@
       <workItem from="1511489446934" duration="12965000" />
       <workItem from="1511748123160" duration="6078000" />
       <workItem from="1511832703064" duration="1001000" />
-      <workItem from="1512357116939" duration="7462000" />
+      <workItem from="1512357116939" duration="8719000" />
+      <workItem from="1512613067153" duration="6168000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27506000" />
+    <option name="totallyTimeSpent" value="34931000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -480,7 +505,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12953092" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13059701" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -519,15 +544,120 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exercise6/PersonDemo.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1386">
+          <caret line="63" column="70" lean-forward="false" selection-start-line="63" selection-start-column="70" selection-end-line="63" selection-end-column="70" />
+          <folding>
+            <element signature="e#778#779#0" expanded="false" />
+            <element signature="e#810#811#0" expanded="false" />
+            <element signature="e#837#838#0" expanded="false" />
+            <element signature="e#898#899#0" expanded="false" />
+            <element signature="e#1065#1066#0" expanded="false" />
+            <element signature="e#1113#1114#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercise6/SingleDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1386">
+          <caret line="69" column="39" lean-forward="false" selection-start-line="69" selection-start-column="39" selection-end-line="69" selection-end-column="39" />
+          <folding>
+            <element signature="e#1090#1091#0" expanded="true" />
+            <element signature="e#1116#1117#0" expanded="true" />
+            <element signature="e#1159#1160#0" expanded="true" />
+            <element signature="e#1194#1195#0" expanded="true" />
+            <element signature="e#1230#1231#0" expanded="true" />
+            <element signature="e#1259#1260#0" expanded="true" />
+            <element signature="e#1479#1480#0" expanded="true" />
+            <element signature="e#1513#1514#0" expanded="true" />
+            <element signature="e#1542#1543#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercise6/SingleDemo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="53" lean-forward="false" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercise7/ExtendsDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1628">
+          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding>
+            <element signature="e#1277#1278#0" expanded="true" />
+            <element signature="e#1325#1326#0" expanded="true" />
+            <element signature="e#1376#1377#0" expanded="true" />
+            <element signature="e#1423#1424#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercise7/ExtendsDemo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercise7/ExtendsDemo3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercise7/ExtendsDemo4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="46" column="10" lean-forward="true" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
+          <folding>
+            <element signature="e#933#934#0" expanded="true" />
+            <element signature="e#982#983#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercise7/FinalDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercise6/StaticDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="57" column="16" lean-forward="false" selection-start-line="56" selection-start-column="20" selection-end-line="57" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercise6/PersonDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1254">
           <caret line="63" column="70" lean-forward="false" selection-start-line="63" selection-start-column="70" selection-end-line="63" selection-end-column="70" />
           <folding>
-            <element signature="e#778#779#0" expanded="true" />
-            <element signature="e#810#811#0" expanded="true" />
-            <element signature="e#837#838#0" expanded="true" />
-            <element signature="e#898#899#0" expanded="true" />
-            <element signature="e#1065#1066#0" expanded="true" />
-            <element signature="e#1113#1114#0" expanded="true" />
+            <element signature="e#778#779#0" expanded="false" />
+            <element signature="e#810#811#0" expanded="false" />
+            <element signature="e#837#838#0" expanded="false" />
+            <element signature="e#898#899#0" expanded="false" />
+            <element signature="e#1065#1066#0" expanded="false" />
+            <element signature="e#1113#1114#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -597,12 +727,12 @@
         <state relative-caret-position="1254">
           <caret line="63" column="70" lean-forward="false" selection-start-line="63" selection-start-column="70" selection-end-line="63" selection-end-column="70" />
           <folding>
-            <element signature="e#778#779#0" expanded="true" />
-            <element signature="e#810#811#0" expanded="true" />
-            <element signature="e#837#838#0" expanded="true" />
-            <element signature="e#898#899#0" expanded="true" />
-            <element signature="e#1065#1066#0" expanded="true" />
-            <element signature="e#1113#1114#0" expanded="true" />
+            <element signature="e#778#779#0" expanded="false" />
+            <element signature="e#810#811#0" expanded="false" />
+            <element signature="e#837#838#0" expanded="false" />
+            <element signature="e#898#899#0" expanded="false" />
+            <element signature="e#1065#1066#0" expanded="false" />
+            <element signature="e#1113#1114#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -672,12 +802,12 @@
         <state relative-caret-position="1386">
           <caret line="63" column="70" lean-forward="false" selection-start-line="63" selection-start-column="70" selection-end-line="63" selection-end-column="70" />
           <folding>
-            <element signature="e#778#779#0" expanded="true" />
-            <element signature="e#810#811#0" expanded="true" />
-            <element signature="e#837#838#0" expanded="true" />
-            <element signature="e#898#899#0" expanded="true" />
-            <element signature="e#1065#1066#0" expanded="true" />
-            <element signature="e#1113#1114#0" expanded="true" />
+            <element signature="e#778#779#0" expanded="false" />
+            <element signature="e#810#811#0" expanded="false" />
+            <element signature="e#837#838#0" expanded="false" />
+            <element signature="e#898#899#0" expanded="false" />
+            <element signature="e#1065#1066#0" expanded="false" />
+            <element signature="e#1113#1114#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -720,7 +850,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8030">
           <caret line="537" column="12" lean-forward="false" selection-start-line="537" selection-start-column="5" selection-end-line="537" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -729,12 +858,12 @@
         <state relative-caret-position="1254">
           <caret line="63" column="70" lean-forward="false" selection-start-line="63" selection-start-column="70" selection-end-line="63" selection-end-column="70" />
           <folding>
-            <element signature="e#778#779#0" expanded="true" />
-            <element signature="e#810#811#0" expanded="true" />
-            <element signature="e#837#838#0" expanded="true" />
-            <element signature="e#898#899#0" expanded="true" />
-            <element signature="e#1065#1066#0" expanded="true" />
-            <element signature="e#1113#1114#0" expanded="true" />
+            <element signature="e#778#779#0" expanded="false" />
+            <element signature="e#810#811#0" expanded="false" />
+            <element signature="e#837#838#0" expanded="false" />
+            <element signature="e#898#899#0" expanded="false" />
+            <element signature="e#1065#1066#0" expanded="false" />
+            <element signature="e#1113#1114#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -780,8 +909,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exercise7/ExtendsDemo2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state relative-caret-position="792">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding>
             <element signature="e#423#424#0" expanded="true" />
             <element signature="e#453#454#0" expanded="true" />
@@ -794,7 +923,7 @@
     <entry file="file://$PROJECT_DIR$/src/exercise7/ExtendsDemo3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="616">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
             <element signature="e#486#487#0" expanded="true" />
             <element signature="e#531#532#0" expanded="true" />
@@ -804,8 +933,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exercise7/ExtendsDemo4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="46" column="10" lean-forward="true" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
+        <state relative-caret-position="1012">
+          <caret line="46" column="10" lean-forward="false" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
           <folding>
             <element signature="e#933#934#0" expanded="true" />
             <element signature="e#982#983#0" expanded="true" />
@@ -815,12 +944,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exercise7/FinalDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        <state relative-caret-position="396">
+          <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercise7/AbstractDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="56" column="38" lean-forward="false" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="38" />
           <folding>
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#960#961#0" expanded="true" />
+            <element signature="e#1000#1001#0" expanded="true" />
+            <element signature="e#1075#1076#0" expanded="true" />
+            <element signature="e#1126#1127#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercise7/AbstractTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#848#849#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
+            <element signature="e#974#975#0" expanded="true" />
+            <element signature="e#1010#1011#0" expanded="true" />
+            <element signature="e#1049#1050#0" expanded="true" />
+            <element signature="e#1095#1096#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercise7/TemlateDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
