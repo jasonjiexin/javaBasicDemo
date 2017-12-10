@@ -45,7 +45,7 @@ class Zi extends Fu {
         //在类中定义中，方法调用类的属性中省略了这个this，这里的this还是谁（对象）调用就是谁的值
         System.out.println(super.getNum());
         //以下语句访问不到Fu类的num值，因为num为私有属性
-        //System.out.println(super.getNum());
+        //System.out.println(super.num());
     }
 }
 
