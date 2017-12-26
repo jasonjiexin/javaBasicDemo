@@ -46,7 +46,7 @@ class Zi extends Fu {
     }
 }
 
-public class DuoTaiDemo3 {
+public class    DuoTaiDemo3 {
 
     public static void main(String[] args) {
 
