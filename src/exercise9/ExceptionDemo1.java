@@ -36,7 +36,7 @@ package exercise9;
 class Demo1 {
     int div(int a, int b) throws Exception {
         return a / b;
-    }
+    }//由于参数的不确定性，在功能上通过throws的关键字表示该功能可能会发生问题,上边方法抛出什么下面处理什么
 }
 
 public class ExceptionDemo1 {
@@ -45,7 +45,10 @@ public class ExceptionDemo1 {
         try {
             int x = d.div(4, 0);
             System.out.println("x=" + x);
-        } catch (Exception e) {
+
+        }//处理方法
+        catch (Exception e)
+        {
             System.out.println("over");
             System.out.println(e.getMessage());// 异常消息
             System.out.println(e.toString());//异常名称 ：  异常信息
