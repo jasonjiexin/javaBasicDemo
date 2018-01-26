@@ -33,15 +33,18 @@ package exercise9;
 class FuShuException extends Exception {
     private int value;
 
+    //新构造的构造函数，将值传给父类的空参方法
     FuShuException() {
         super();
     }
 
+    //新构造的构造函数，重写方法的参数，供后续的方法调用
     FuShuException(String msg, int value) {
         super(msg);
         this.value = value;
     }
 
+    //新构建的方法，调用value值
     public int getValue() {
         return value;
     }
@@ -50,8 +53,7 @@ class FuShuException extends Exception {
 class Demo3 {
     int div(int a, int b) throws FuShuException {
         if (b < 0) {
-            throw new FuShuException("出现了负数的情况--------/ by fushu", b);
-            //手动通过throw关键字抛出一个自定义异常对象
+            throw new FuShuException("被除数出现了问题-------by",-9);
         }
         return a / b;
     }
